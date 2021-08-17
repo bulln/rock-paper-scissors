@@ -1,0 +1,60 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    margin: 10px;
+    font-size: 2.5em;
+    font-family: arial;
+}
+
+.score-number{
+    font-size: 4em;
+}
+
+#message-block{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+}
+
+button{
+    padding: 20px 40px 20px 40px;
+    border-radius: 8px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(51, 201, 138);
+    font-size: large;
+    background: white;
+}
+
+button:hover{
+    border-color: rgb(46, 45, 45);
+    background: rgb(63, 62, 62);
+}
+
+#selection-buttons{
+    display: none;
+    justify-content: space-around;
+}
+
+#start-button{
+    display: flex;
+    justify-content: center;
+}
+
+#score{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+}
+
+.score-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
